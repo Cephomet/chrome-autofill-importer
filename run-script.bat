@@ -22,75 +22,41 @@ node -v >nul 2>nul
 if %errorlevel% equ 0 (
     echo Node.js is already installed.
 
+    :: Wheck for Web Data
+    IF NOT EXIST "Web Data" (
+        echo Critical Error: data.json not found in the same directory.
+        pause
+        exit /b 1
+    )
+
+
     :: Check for data.json file
-    if exist data.json (
-        echo data.json found.
-    ) else (
-        echo data.json not found in the same directory.
+    IF NOT EXIST data.json (
+        echo Critical Error: data.json not found in the same directory.
+        pause
+        exit /b 1
     )
 
     :: Run npm install locally
     echo Installing dependencies...
+    call npm install sqlite3
     call npm install
+    
 
     :: Run importautofill.js if it exists in the same directory
     if exist importautofill.js (
-        echo Running importautofill.js...
+        echo ImportAutofill: Running importautofill.js...
         node importautofill.js
     ) else (
-        echo importautofill.js not found in the same directory.
+        echo Critical Error: importautofill.js not found in the same directory.
     )
-
+ 
+    :: Pause to keep the window open
     pause
     exit /b 0
+
 ) else (
-    echo Node.js is not installed. Please install it using install-node.bat and then run this script again.
+    echo Critical Error: Node.js is not installed. Please install it using install-node.bat and then run this script again.
     pause
     exit /b 1
 )
-
-: Set the desired Node.js version
-SET "NODE_VERSION=v21.6.1"
-
-echo Installing Node.js %NODE_VERSION%...
-
-:: Download the Node.js installer
-curl -o node_setup.msi https://nodejs.org/dist/%NODE_VERSION%/node-%NODE_VERSION%-x64.msi
-
-:: Install Node.js
-start /wait "" msiexec /i node_setup.msi
-
-:: Check Node.js and npm versions
-node -v
-npm -v
-
-:: Wait for a few seconds to ensure the installer has completed
-timeout /t 5 /nobreak > nul
-
-:: Clean up temporary files
-del node_setup.msi
-
-echo Node.js installation complete.
-
-:: Check for data.json file
-if exist data.json (
-    echo data.json found.
-) else (
-    echo data.json not found in the same directory.
-)
-
-:: Run npm install locally
-echo Installing dependencies...
-call npm install
-
-:: Run importautofill.js if it exists in the same directory
-if exist importautofill.js (
-    echo Running importautofill.js...
-    node importautofill.js
-) else (
-    echo importautofill.js not found in the same directory.
-)
-
-:: Pause to keep the window open
-pause
-exit /b 0
