@@ -1,17 +1,177 @@
 [
   {
     "name": "reason",
-    "value": "Example autofill date, that is shown when user types exa... in data fields.",
+    "value": "AFK - Thanks for playing!",
     "count": 20
   },
   {
-    "name": "username",
-    "value": "Example of autofill for the username input on a webpage, that will be shown when the user types exa....",
+    "name": "reason",
+    "value": "Clear chat! Play the match, or create a ticket!",
     "count": 20
   },
   {
-    "name": "username",
-    "value": "Example of higher count, meaning this result appears before your other autofills suggestions.",
+    "name": "reason",
+    "value": "Creating squads you don't lead is punishable! This means you..",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Dig your mines down! You are not playing the objective, dig then return to it!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Exit the vehicle! You do not have claim on that vehicle.",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Grab Squad Lead/Crewman kit now, at an ammo box or any vehicle!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Griefing behavior is not tolerated!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Hey! You've been warned... apologize for ALL TKs using [J]!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Main camping is not tolerated!",
+    "count": 20
+  },
+  {
+    "name": "reason",
+    "value": "Main camping! You appear to be main camping, return to the objective!",
+    "count": 20
+  },
+  {
+    "name": "reason",
+    "value": "Main camping? What are you trying to do over here? Play the objective.",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Open a ticket on Discord. Send a video clip, thanks!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Play the ACTIVE objective. Disengage & move to it now!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Political or controversial topics are not allowed.",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Rename your squad! Disband & use a normal squad name!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Return to the objective & disengage! Pushing that area is not PTFO!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Pushing - Failure to PTFO/disengage.",
+    "count": 20
+  },
+  {
+    "name": "reason",
+    "value": "Soloing a vehicle that requires 2 crewmen is forbidden!",
+    "count": 20
+  },
+  {
+    "name": "reason",
+    "value": "Spawn Camping - Stop attack spawns! Rule 5.2",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Squad Baiting - Lead it or disband it.",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Stop attacking 1st/2nd objectives! Disengage & play your objectives!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Stop! Bring the vehicle back or be kicked for ignoring claim!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Stop! Return to main. You don't have vehicle claim!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Stop! Return to main. Your vehicle requires 2 crewmen! You're Soloing.",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Teamkilling is not tolerated!",
+    "count": 20
+  },
+  {
+    "name": "reason",
+    "value": "Toxic behavior is not tolerated!",
+    "count": 20
+  },
+  {
+    "name": "reason",
+    "value": "Trolling behavior is not tolerated!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Unlock your squad OR disband. Your squad must be unlocked when under 4.",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Unlock your squad OR recreate it named after your vehicle!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Vehicle Claim - Failure To Return Vehicle",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Wasting assets is not tolerated!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "You must have a SL Kit & MIC. This squad will be disbanded otherwise!",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "You're missing a Squad Lead Kit, grab it quickly from a vehicle/ammo box!",
+    "count": 20
+  },
+  {
+    "name": "reason",
+    "value": "Your Squad needs SL with a microphone or it will be disbanded!",
+    "count": 20
+  },
+  {
+    "name": "reason",
+    "value": "Dig down that camo netted structure near you please! Server rule 5.1.",
     "count": 100
   }
 ]
