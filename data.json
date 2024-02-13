@@ -8,7 +8,7 @@
     "name": "username",
     "value": "Example of autofill for the username input on a webpage, that will be shown when the user types exa....",
     "count": 20
-  }
+  },
   {
     "name": "username",
     "value": "Example of higher count, meaning this result appears before your other autofills suggestions.",
