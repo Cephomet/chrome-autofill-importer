@@ -19,5 +19,5 @@ Follow the step-by-step guide here https://docs.google.com/document/d/1NpDU80Dg-
 - Start Chrome
 
 ## Potential Issues
-- If you have issues opening/moving Web Data file.
+- If you have issues opening/moving Web Data file, open task manager and ensure the browser is closed (cover the guide).
 - If your Data.json file has formatting issues, the script may not function right. Check your data.json file by pasting into a JSON validator like: https://jsonlint.com/
