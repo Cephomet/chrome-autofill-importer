@@ -1,8 +1,8 @@
 # Requirements
-Windows 11 / Windows 10 / Node.js (21.6.1)
-Option 1: Install Node.js Use "install-node.bat" in the folder to install using wget.
-Option 2: You may install node manually from https://nodejs.org/en/download/current choose "current"
-Option 3: If you have node already, you can likely skip this.
+- Windows 11 / Windows 10 / Node.js (21.6.1)
+- Option 1: Install Node.js Use "install-node.bat" in the folder to install using wget.
+- Option 2: You may install node manually from https://nodejs.org/en/download/current choose "current"
+- Option 3: If you have node already, you can likely skip this.
 
 ## Design
 - This bat script is meant to automate functions, therefor no prerequisites need to be installed first. 
