@@ -4,10 +4,10 @@
 cd /d "%~dp0"
 
 :: Simple text art for "Autofill Manager 1.0"
-echo ============================================
-echo           Chrome (Edge, Brave, Opera etc..) Autofill Importer 1.0
-echo        Author: github.com/TempusOwl
-echo ============================================
+echo =====================================================================
+echo           Chrome (Edge, Brave, Opera etc..) Autofill Importer
+echo                      Author: github.com/TempusOwl
+echo =====================================================================
 
 :: Check if the script is run as administrator
 NET SESSION >nul 2>nul
@@ -24,7 +24,7 @@ if %errorlevel% equ 0 (
 
     :: Wheck for Web Data
     IF NOT EXIST "Web Data" (
-        echo Critical Error: data.json not found in the same directory.
+        echo Critical Error: Web Data file is missing from my directory.
         pause
         exit /b 1
     )
@@ -32,7 +32,7 @@ if %errorlevel% equ 0 (
 
     :: Check for data.json file
     IF NOT EXIST data.json (
-        echo Critical Error: data.json not found in the same directory.
+        echo Critical Error: data.json not is missing from my directory.
         pause
         exit /b 1
     )
