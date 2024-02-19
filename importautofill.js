@@ -4,7 +4,7 @@ const path = require("path");
 const sqlite3 = require("sqlite3");
 const newDataPath = "./Data.json";
 const databasePath = "./Web Data";
-const fixedDateValue = new Date().toISOString();
+const fixedDateValue = "1707879309";
 const jsonDataPath = path.join(__dirname, "Data.json");
 
 if (!fs.existsSync(databasePath)) {
@@ -21,7 +21,7 @@ if (!fs.existsSync(databasePath)) {
   });
 } else {
   if (!fs.existsSync(jsonDataPath)) {
-    console.log("Data.json not found.");
+    console.log("Data.json or not found.");
   }
 
   const rl = readline.createInterface({
@@ -53,10 +53,14 @@ if (!fs.existsSync(databasePath)) {
       fs.copyFile(databasePath, backupFilePath, (err) => {
         if (err) throw err;
         console.log("Backup created: " + backupFilePath);
-        clearAutofillData(importNewData);
+        clearAutofillData().then(() => {
+          importNewData();
+        });
       });
     } else if (answer.toLowerCase() === "no") {
-      clearAutofillData(importNewData);
+      clearAutofillData().then(() => {
+        importNewData();
+      });
     } else {
       console.log('Invalid input. Please enter "yes" or "no".');
     }
@@ -102,6 +106,7 @@ if (!fs.existsSync(databasePath)) {
         console.error(err.message);
       }
       console.log("Database connection closed.");
+      console.log("Import complete. You can now close this window and drag the Web Data file into your browser's local appdata folder.");
     });
   }
 }

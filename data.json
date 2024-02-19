@@ -2,16 +2,21 @@
   {
     "name": "reason",
     "value": "AFK - Thanks for playing!",
-    "count": 20
+    "count": 100
   },
   {
-    "name": "reason",
-    "value": "Clear chat! Play the match, or create a ticket!",
-    "count": 20
+    "name": "message",
+    "value": "Clear chat! Play the match, or create a Discord ticket!",
+    "count": 100
   },
   {
     "name": "reason",
     "value": "Creating squads you don't lead is punishable! This means you..",
+    "count": 100
+  },
+  {
+    "name": "reason",
+    "value": "Dig down that camo netted structure near you please! Server rule 5.1.",
     "count": 100
   },
   {
@@ -42,12 +47,12 @@
   {
     "name": "reason",
     "value": "Main camping is not tolerated!",
-    "count": 20
+    "count": 100
   },
   {
     "name": "reason",
     "value": "Main camping! You appear to be main camping, return to the objective!",
-    "count": 20
+    "count": 100
   },
   {
     "name": "reason",
@@ -71,6 +76,11 @@
   },
   {
     "name": "reason",
+    "value": "Pushing - Failure to PTFO/disengage.",
+    "count": 100
+  },
+  {
+    "name": "reason",
     "value": "Rename your squad! Disband & use a normal squad name!",
     "count": 100
   },
@@ -81,13 +91,8 @@
   },
   {
     "name": "reason",
-    "value": "Pushing - Failure to PTFO/disengage.",
-    "count": 20
-  },
-  {
-    "name": "reason",
     "value": "Soloing a vehicle that requires 2 crewmen is forbidden!",
-    "count": 20
+    "count": 100
   },
   {
     "name": "reason",
@@ -122,12 +127,12 @@
   {
     "name": "reason",
     "value": "Teamkilling is not tolerated!",
-    "count": 20
+    "count": 100
   },
   {
     "name": "reason",
     "value": "Toxic behavior is not tolerated!",
-    "count": 20
+    "count": 100
   },
   {
     "name": "reason",
@@ -162,16 +167,11 @@
   {
     "name": "reason",
     "value": "You're missing a Squad Lead Kit, grab it quickly from a vehicle/ammo box!",
-    "count": 20
+    "count": 100
   },
   {
     "name": "reason",
     "value": "Your Squad needs SL with a microphone or it will be disbanded!",
-    "count": 20
-  },
-  {
-    "name": "reason",
-    "value": "Dig down that camo netted structure near you please! Server rule 5.1.",
     "count": 100
   }
 ]

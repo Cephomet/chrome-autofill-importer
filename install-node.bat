@@ -1,6 +1,11 @@
 @echo off
 setlocal
 
+echo =====================================================================
+echo                           Install Node.js
+echo             If it says already installed you are all set!
+echo =====================================================================
+
 :: Check if Node.js is already installed
 for /f "delims=" %%v in ('node -v 2^>nul') do set "NODE_VERSION=%%v"
 if defined NODE_VERSION (
