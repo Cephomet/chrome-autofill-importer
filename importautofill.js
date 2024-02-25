@@ -29,18 +29,22 @@ if (!fs.existsSync(databasePath)) {
     output: process.stdout,
   });
 
-  function clearAutofillData(callback) {
-    const db = new sqlite3.Database(databasePath);
-
-    db.run("DELETE FROM autofill", function (err) {
-      if (err) {
-        console.error("Error clearing autofill data:", err.message);
-      } else {
-        console.log("Autofill data cleared successfully");
-        callback();
-      }
+  function clearAutofillData() {
+    return new Promise((resolve, reject) => {
+      const db = new sqlite3.Database(databasePath);
+  
+      db.run("DELETE FROM autofill", function (err) {
+        if (err) {
+          console.error("Error clearing autofill data:", err.message);
+          reject(err);
+        } else {
+          console.log("Autofill data cleared successfully");
+          resolve();
+        }
+      });
     });
   }
+  
 
   rl.question("Do you want to backup the file? (yes/no) ", (answer) => {
     if (answer.toLowerCase() === "yes") {
