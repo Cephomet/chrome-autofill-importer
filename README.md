@@ -1,12 +1,15 @@
-# Requirements
+# Before Starting...
 - Windows 11 / Windows 10 / Node.js (21.6.1)
+- This will delete your current autofill, you are given choice to backup your file during install. You can use tool like https://sqlitebrowser.org/ to open Web Data files and find your "autofill" table.
 - Option 1: Install Node.js Use "install-node.bat" in the folder to install using wget.
 - Option 2: You may install node manually from https://nodejs.org/en/download/current choose "current"
 - Option 3: If you have node already, you can likely skip this.
 
-## Design
-- This bat script is meant to automate functions, therefor no prerequisites need to be installed first. 
-- To keep it simple, it will import sqlite3 (database functions) and update all your NPM modules to lessen issues. Comment this behavior out in the BAT file if you want to handle this manually.
+## Understanding The Script
+- The install-node.bat is to help users without node.js to install it using winget. 
+- The run-script.bat installs/checks & updates the required npm dependencies needed to run the script requiring minimal user input. You can still run JS without the bat file if you prefer.
+- After run-script.bat completes, it runs importautofill.js which is what handles the importing. 
+- Importautofill.js clears your "autofill" table using sqlite3, and then reads data.json and imports those warnings. 
 
 ## Usage 
 Follow the step-by-step guide here https://docs.google.com/document/d/1NpDU80Dg-DtKbQ2MMieNSwUOeAHDLdpcXqrpb2AP3iM/edit?usp=sharing
