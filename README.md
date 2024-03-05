@@ -1,6 +1,6 @@
 # Before Starting...
 - Windows 11 / Windows 10 / Node.js (21.6.1)
-- This will delete your current autofill, you are given choice to backup your file during install. You can use tool like https://sqlitebrowser.org/ to open Web Data files and find your "autofill" table.
+- This will delete your current autofill, you are given choice to backup your file during install. You can use a tool like https://sqlitebrowser.org/ to open your Web Data files and find your "autofill" table.
 - Option 1: Install Node.js Use "install-node.bat" in the folder to install using wget.
 - Option 2: You may install node manually from https://nodejs.org/en/download/current choose "current"
 - Option 3: If you have node already, you can likely skip this.
