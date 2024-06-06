@@ -1,167 +1,167 @@
 [
   {
     "name": "reason",
-    "value": "Return to the objective! Pushing 1st/2nd objective is not allowed!",
+    "value": "Play The Objective! Pushing 1st/2nd objective is not allowed!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Return to the objective! You are breaking rule 4.2! You will be kicked!",
+    "value": "Play The Objective! Pushing is not allowed. You will be kicked!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "Main camping! You appear to be main camping, return to the objective!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "Main camping? What are you trying to do over here? Play the objective.",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Play the objective. You need to move to the active objective! Rule 4.2!",
+    "value": "Play The Objective! You need to move to the active objective! Rule 4.2!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R4.1 Main camping is not tolerated!",
+    "value": "R4 Main camping is not tolerated!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R4.2 Failure to PTFO/disengage",
+    "value": "R4 Failure to PTFO/disengage",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Unlock your squad OR disband. Your squad needs needs 4 or more!",
+    "value": "Unlock your squad OR disband, it's under 4 players with non-valid name!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "Disband your squad to rename it! This name is not allowed!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "Creating squads you don't lead is punishable! This means you..",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "You are a Squad Leader, you must grab a SL kit and have a mic!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "You must have microphone to Squad Lead!",
+    "value": "You need microphone to Squad Lead! Promote someone who does.",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "You need SL kit! Grab one from the vehicle, or pass SL!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R1.2 Squad Baiting - Lead squads you create or disband!",
+    "value": "R1 Squad Baiting - Lead squads you create or disband!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Stop! Return to main. You don't have a vehicle claim!",
+    "value": "Stop! Return now. You don't have a vehicle claim!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "Stop! Return now or be kicked for ignoring claim rules!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Stop! Return to main. Your vehicle requires 2 crewmen! You're Soloing.",
+    "value": "Stop! Return now. Your vehicle requires 2 crewmen! You're Soloing.",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "Stop! Exit the vehicle! You don't have a claim on that vehicle.",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R3.1 Soloing Crewman Vehicles is not tolerated!",
+    "value": "R3 Soloing Crewman Vehicles is not tolerated!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R3.x Vehicle Claim - Ignoring Claim",
+    "value": "R3 Vehicle Claim - Ignoring Claim",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Follow seed rules! Dig down that camo netted structure near you please!",
+    "value": "Seed rules! Return to the objective, stop attacking spawns!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Follow seed rules! Return to the objective, stop attacking spawns!",
+    "value": "Seed rules! Stop attacking spawns and PTFO! Rule 5.2",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Follow seed rules! Stop attacking spawns and PTFO! Rule 5.2",
+    "value": "Seed rules! Dig down camo netting emplacements near you please!",
     "count": 100
-  },
-  {
-    "name": "message",
-    "value": "Follow seed rules! Stop attacking spawns. Lets keep seed fun and keep your bodies on the middle objective!",
-    "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "Hey! You've been warned... apologize for ALL TKs using [J]!",
+    "value": "Seed rules! Stop attacking spawns! Keep your bodies on the objective.",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R1.1 Teamkilling is not tolerated!",
+    "value": "Teamkilling warning! Apologize for your teamkills using [J] key.",
     "count": 100
-  },
-  {
+},
+{
+    "name": "reason",
+    "value": "R1 Teamkilling is not tolerated!",
+    "count": 100
+},
+{
     "name": "reason",
     "value": "Open a ticket on our !discord & send your video clip, thanks!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "Toxic Behavior! You have been warned, be respectful on our servers.",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R2.2 Toxic behavior is not tolerated!",
+    "value": "R2 Toxic behavior is not tolerated!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R2.4 Trolling/wasting assets is not tolerated!",
+    "value": "R2 Trolling/wasting assets is not tolerated!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
-    "value": "R2.5 Failure to clear chat after warnings",
+    "value": "R2 Failure to clear chat after warnings",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "CoC! Consider the reputation this behavior sets for LiQ!",
     "count": 100
-  },
-  {
+},
+{
     "name": "reason",
     "value": "CoC! This behavior sets a bad example for LiQ, follow the LiQ CoC!",
     "count": 100
-  }
+}
 ]
