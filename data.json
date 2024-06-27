@@ -156,6 +156,11 @@
 },
 {
     "name": "reason",
+    "value": "R3.5 - Move beyond the first point flag before firing your vehicle's artillery!",
+    "count": 100
+},
+{
+    "name": "reason",
     "value": "CoC! Consider the reputation this behavior sets for LiQ!",
     "count": 100
 },
