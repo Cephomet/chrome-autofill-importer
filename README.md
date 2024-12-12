@@ -1,3 +1,5 @@
+LiQ Source File: https://docs.google.com/spreadsheets/d/1ZZJYWffodjdQA6qKScKs_x07VBXhJbmJ6eOKXWWZ66k/edit?usp=sharing
+
 # Before Starting...
 - Windows 11 / Windows 10 / Node.js (21.6.1)
 - This will delete your current autofill, you are given choice to backup your file during install. You can use a tool like https://sqlitebrowser.org/ to open your Web Data files and find your "autofill" table.
